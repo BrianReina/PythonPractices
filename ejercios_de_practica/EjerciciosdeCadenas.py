@@ -37,3 +37,20 @@
 # Ejercicio 6
 # Escribir un programa que pida al usuario que introduzca una frase en la consola y una vocal, y después muestre por pantalla la misma frase pero con la vocal introducida en mayúscula.
 
+# user = input('Introduce una frase: ')
+# vocal = input('Intoduce una vocal: ')
+# print(user.replace(vocal, vocal.upper()))
+
+
+# Ejercicio 7
+# Escribir un programa que pregunte el correo electrónico del usuario en la consola y muestre por pantalla otro correo electrónico con el mismo nombre (la parte delante de la arroba @) pero con dominio ceu.es.
+
+# user = input('Introduce your email:')
+# print(user[:user.find('@')] + '@ceu.es')
+
+
+# Ejercicio 8
+# Escribir un programa que pregunte por consola el precio de un producto en euros con dos decimales y muestre por pantalla el número de euros y el número de céntimos del precio introducido.
+
+# user = float(input('Introduce the price an object: '))
+# print(f'El producto vale ${int(user)} con {round(user,0.2)}')
