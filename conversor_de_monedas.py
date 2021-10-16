@@ -26,4 +26,4 @@ try:
         print('Ingresa una opción correcta por favor')
 
 except ValueError:
-    print('¿Solo valores numericos!')
+    print('¡Solo valores numericos!')
