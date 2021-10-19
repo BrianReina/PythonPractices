@@ -4,26 +4,28 @@ def conversor(tipo_pesos, valor_dolar):
     print(f'Tienes {dolares} dólares')
 
 
-try:
-    menu = '''
-    Bienvenido al conversor de monedas 💰
+if __name__ == '__main__':
 
-    1 - Pesos colombianos
-    2 - Pesos argentinos
-    3 - Pesos mexicanos
+    try:
+        menu = '''
+        Bienvenido al conversor de monedas 💰
 
-    Elige una opción: '''
+        1 - Pesos colombianos
+        2 - Pesos argentinos
+        3 - Pesos mexicanos
 
-    opcion = int(input(menu))
+        Elige una opción: '''
 
-    if opcion == 1:
-        conversor('colombianos', 3875)
-    elif opcion == 2:
-        conversor('argentinos', 65)
-    elif opcion == 3:
-        conversor('mexicanos', 24)
-    else:
-        print('Ingresa una opción correcta por favor')
+        opcion = int(input(menu))
 
-except ValueError:
-    print('¡Solo valores numericos!')
+        if opcion == 1:
+            conversor('colombianos', 3875)
+        elif opcion == 2:
+            conversor('argentinos', 65)
+        elif opcion == 3:
+            conversor('mexicanos', 24)
+        else:
+            print('Ingresa una opción correcta por favor')
+
+    except ValueError:
+        print('¡Solo valores numericos enteros!')
