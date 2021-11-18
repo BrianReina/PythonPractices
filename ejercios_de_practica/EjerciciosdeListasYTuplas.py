@@ -61,3 +61,24 @@
 
 #Ejercicio 7
 #Escribir un programa que almacene el abecedario en una lista, elimine de la lista las letras que ocupen posiciones múltiplos de 3, y muestre por pantalla la lista resultante.
+
+# abc = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
+# for i in range(len(abc),0,-1):
+#     if i % 3 == 0:
+#         del abc[i-1]
+# print(abc)
+
+
+#Ejercicio 8
+#Escribir un programa que pida al usuario una palabra y muestre por pantalla si es un palíndromo.
+
+# palintromo = input('Escribe una palabra para ver si es palindromo: ')
+# if palintromo.lower().replace(' ','') == palintromo[::-1].lower().replace(' ',''):
+#     print('Es palindromo!')
+# else:
+#     print('No es palindromo!')
+
+
+#Ejercicio 9
+#Escribir un programa que pida al usuario una palabra y muestre por pantalla el número de veces que contiene cada vocal.
+
