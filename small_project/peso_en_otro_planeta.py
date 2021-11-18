@@ -19,7 +19,7 @@ if __name__ == '__main__':
             6- Urano
             7- Neptuno
         '''
-        opcion = int(input(menu))
+        opcion = float(input(menu))
 
         #Mercurio
         if opcion == 1:
@@ -46,4 +46,4 @@ if __name__ == '__main__':
             print('Ingresa una opcion correcta')
 
     except ValueError:
-        print('Solo se pueden ingresar numeros enteros')
+        print('¡Solo se pueden ingresar numeros!')
