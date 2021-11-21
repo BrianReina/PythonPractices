@@ -82,3 +82,24 @@
 #Ejercicio 9
 #Escribir un programa que pida al usuario una palabra y muestre por pantalla el número de veces que contiene cada vocal.
 
+# word = input('Escribe una palabra: ')
+# vocals = ('a','e','i','o','u')
+# for i in vocals:
+#     contador = 0
+#     for j in word:
+#         if i == j:
+#             contador += 1
+#     print(f'La letra {i} apacece {contador} veces en la palabra')
+
+
+#Ejercicio 10
+#Escribir un programa que almacene en una lista los siguientes precios, 50, 75, 46, 22, 80, 65, 8, y muestre por pantalla el menor y el mayor de los precios.
+
+# price = (50, 75, 46, 22, 80, 65, 8)
+# print(price)
+# print(f'{min(price)} es el precio menor')
+# print(f'{max(price)} es el precio mayor')
+
+
+#Ejercicio 11
+#Escribir un programa que almacene los vectores (1,2,3) y (-1,0,2) en dos listas y muestre por pantalla su producto escalar.
